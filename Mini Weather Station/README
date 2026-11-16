@@ -16,6 +16,27 @@ An ESP32-based weather station designed to measure temperature, humidity, rainfa
 | 1 set | Jumper wires |
 | 1 | USB data cable compatible with the DevKit |
 
+## 3D-Printed Parts and Physical Assembly
+
+The AGRION Weather Station incorporates custom 3D-printed parts to support the physical assembly and integration of its electronic components.
+
+These parts include structural supports and mounting elements for the sensors, ESP32, and wind measurement system.
+
+The anemometer uses a wind-driven rotating mechanism connected to a DC motor, which generates an electrical signal used to estimate wind speed.
+
+3D printing enables rapid prototyping, customization, and replacement of mechanical components, making the weather station easier to assemble, maintain, and adapt.
+
+The station combines:
+
+- **Embedded electronics:** ESP32 microcontroller and environmental sensors.
+- **3D-printed components:** Structural supports, mounting parts, and anemometer assembly.
+- **Environmental monitoring:** Temperature, humidity, rainfall detection, and estimated wind speed.
+- **IoT connectivity:** Local sensor readings and periodic telemetry transmission to the AGRION platform.
+
+The 3D models, assembly references, and photographs of the physical prototype are available in the project's documentation.
+
+**Note:** Wind speed measurements are currently based on a preliminary bench-test calibration and should not be interpreted as certified meteorological measurements.
+
 ## Assembly
 
 Use the [wiring diagram](Diagrama_ESP32_Sensores_Motor.png) to assemble the circuit while the ESP32 is powered off.
